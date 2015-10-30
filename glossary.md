@@ -9,7 +9,7 @@ We need to add the term ASIC to the vocabulary
 
 Can Terry be included.....
 
-We hope that this glossary of definitions is helpful as you study OpenStack, as well as the other topics found in this manual. Our glossary began with a fork from the OpenStack documentation. Many helpful OpenStack definitions (and documentation) are available through docs.openstack.org, or by forking the openstack/openstack-manuals repository via:
+We hope that this glossary of definitions is helpful as you study OpenStack, as well as the other topics found in this manual. :) Our glossary began with a fork from the OpenStack documentation. Many helpful OpenStack definitions (and documentation) are available through docs.openstack.org, or by forking the openstack/openstack-manuals repository via:
 
 [OpenStack Manuals](https://github.com/openstack/openstack-manuals)
 Twitter:  https://twitter.com/OpenStack
