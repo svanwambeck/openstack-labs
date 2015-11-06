@@ -32,6 +32,7 @@ Atest [5] This is a test.
 - **Bare Metal Service** [1] OpenStack project that provisions bare metal, as opposed to virtual, machines. The code name for the project is ironic.
 - **Block Device** [11] A device that moves data in the form of blocks. These device nodes interface the devices, such as hard disks, CD-ROM drives, flash drives, and other addressable regions of memory.
 - **Blockhead Device** [11] A device that moves data in the form of blocks between your ears. Also known as mental floss.
+- **Brno** A cool city in Czech Republic
 - **BUI** [2] Browser User Interface
 - **Bursting** [18] Utilizing a secondary environment to dynamically build instances on-demand when the primary environment is resource constrained.
 - **Cache Pruner** [10] Image cache has a configurable maximum size. If glance-cache-pruner is running, and the image_cache_max_size is exceeded, it will start running and try to remove images in a stalled or invalid state due to image cache writing failing to complete, or not being written properly. It is recommended that cron is used to fire off glance-cache-pruner at a regular interval.
@@ -173,6 +174,7 @@ Atest [5] This is a test.
 - **Staging Area** [17] You modify files in your working directory, then stage the files. Staged files are snapshots, but not permanently committed. Staged files are permanently snapshotted when they are committed.
 - **Storage Node** [11] An Object Storage node that provides container services, account services, and object services; controls the account databases, container databases, and object storage.
 - **Swift** [11] An OpenStack core project that provides object storage services.
+- **TAP** Traffic Access Point
 - **Telemetry** [14] An integrated project that provides metering and measuring facilities for OpenStack. The project name of Telemetry is ceilometer.
 - **Tenant** [5] It refers to a group of users; used to isolate access to Compute resources. Also known as a project, these terms are interchangeable. The initial implementation of OpenStack Compute had its own authentication system and used the term project. When authentication moved into the OpenStack Identity (keystone) project, it used the term tenant to refer to a group of users. Because of this legacy, some of the OpenStack tools refer to projects and some refer to tenants. 
 - **Token** [5] An alpha-numeric string of text used to access OpenStack APIs and resources.
