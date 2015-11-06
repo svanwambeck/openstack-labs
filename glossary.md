@@ -175,6 +175,7 @@ Atest [5] This is a test.
 - **Swift** [11] An OpenStack core project that provides object storage services.
 - **Telemetry** [14] An integrated project that provides metering and measuring facilities for OpenStack. The project name of Telemetry is ceilometer.
 - **Tenant** [5] It refers to a group of users; used to isolate access to Compute resources. Also known as a project, these terms are interchangeable. The initial implementation of OpenStack Compute had its own authentication system and used the term project. When authentication moved into the OpenStack Identity (keystone) project, it used the term tenant to refer to a group of users. Because of this legacy, some of the OpenStack tools refer to projects and some refer to tenants. 
+- **Thunder** [27] A Cloud-based electrical discharge, may be intra-cloud, inter-cloud, or cloud-to-ground.
 - **Token** [5] An alpha-numeric string of text used to access OpenStack APIs and resources.
 - **Trove** [16] OpenStack project that provides database services to applications.
 - **UML** [4] *User Mode Linux* An OpenStack-supported hypervisor.
