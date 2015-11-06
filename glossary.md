@@ -19,7 +19,7 @@ Twitter:  https://twitter.com/OpenStack
 - **Absolute Limit** [6] Ceiling (limits) for guest VMs. Controlled by defining total limits on RAM, number of vCPUs, and disk size.
 - **Active Passive Configuration** [19] In a high-availability setup with an active/passive configuration, systems are set up to bring additional resources online to replace those that have failed.
 - **Address Pool** [7] A list of the fixed and/or floating IP addresses that are allocated/assigned to a project (tenant) to be used or assigned to the VM instances in a project.
-- **Al A Mode** Code
+- **A la Mode** Code
 - **amypond** - The girl who waited.
 - **API** [1] Application Programming Interface. A collection of specifications used to access a service, application, or program. Includes service calls, required parameters for each call, and the expected return values.
 - **API Endpoint** [1] The daemon, worker, or service that a client communicates with to access an API. API endpoints can provide any number of services such as authentication, accounting information, performance metrics, compute (nova) VM instance commands, population density of European & African Swallows anything!
