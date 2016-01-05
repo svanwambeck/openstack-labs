@@ -257,38 +257,38 @@ Command-line interface to the OpenStack Nova API.
 `tenant-network-list`         List tenant networks.  
 `tenant-network-show`         Show a tenant network.  
 
-Optional arguments:
-  --version                     show program's version number and exit  
-  --debug                       Print debugging output  
-  --os-cache                    Use the auth token cache. Defaults to False if env[OS_CACHE] is not set.  
-  --timings                     Print call timing info  
-  --os-auth-token OS_AUTH_TOKEN Defaults to env[OS_AUTH_TOKEN]  
-  --os-tenant-name <auth-tenant-name> Defaults to env[OS_TENANT_NAME].  
-  --os-tenant-id <auth-tenant-id> Defaults to env[OS_TENANT_ID].  
-  --os-region-name <region-name> Defaults to env[OS_REGION_NAME].  
-  --os-auth-system <auth-system> Defaults to env[OS_AUTH_SYSTEM].  
-  --service-type <service-type>  Defaults to compute for most actions  
-  --service-name <service-name>  Defaults to env[NOVA_SERVICE_NAME]  
-  --volume-service-name <volume-service-name> Defaults to env[NOVA_VOLUME_SERVICE_NAME]  
-  --os-endpoint-type <endpoint-type>  Defaults to env[NOVA_ENDPOINT_TYPE], env[OS_ENDPOINT_TYPE] or publicURL.  
-  --os-compute-api-version <compute-api-ver>      Accepts 1.1 or 3, defaults to env[OS_COMPUTE_API_VERSION].  
-  --bypass-url <bypass-url>     Use this API endpoint instead of the Service Catalog. Defaults to env[NOVACLIENT_BYPASS_URL]  
-  --insecure                    Explicitly allow client to perform "insecure" TLS (https) requests. The server's certificate will not be verified against any certificate authorities. This option should be used with caution.  
-  --os-cacert <ca-certificate>  Specify a CA bundle file to use in verifying a TLS (https) server certificate. Defaults to env[OS_CACERT].  
-  --os-cert <certificate>        Defaults to env[OS_CERT].  
-  --os-key <key>                 Defaults to env[OS_KEY].  
-  --timeout <seconds>            Set request timeout (in seconds).  
-  --os-auth-url OS_AUTH_URL      Authentication URL  
-  --os-domain-id OS_DOMAIN_ID    Domain ID to scope to  
-  --os-domain-name OS_DOMAIN_NAME Domain name to scope to  
-  --os-project-id OS_PROJECT_ID  Project ID to scope to  
-  --os-project-name OS_PROJECT_NAME  Project name to scope to  
-  --os-project-domain-id OS_PROJECT_DOMAIN_ID Domain ID containing project  
-  --os-project-domain-name OS_PROJECT_DOMAIN_NAME Domain name containing project  
-  --os-trust-id OS_TRUST_ID     Trust ID  
-  --os-user-id OS_USER_ID       User ID  
-  --os-user-name OS_USERNAME, --os-username OS_USERNAME Username  
-  --os-user-domain-id OS_USER_DOMAIN_ID User's domain id  
-  --os-user-domain-name OS_USER_DOMAIN_NAME User's domain name  
-  --os-password OS_PASSWORD     User's password  
+Optional arguments:  
+`--version`                      show program's version number and exit  
+`--debug`                        Print debugging output  
+`--os-cache`                     Use the auth token cache. Defaults to False if env[OS_CACHE] is not set.  
+`--timings`                      Print call timing info  
+`--os-auth-token OS_AUTH_TOKEN`  Defaults to env[OS_AUTH_TOKEN]  
+`--os-tenant-name <auth-tenant-name>`  Defaults to env[OS_TENANT_NAME].  
+`--os-tenant-id <auth-tenant-id> Defaults to env[OS_TENANT_ID].  
+`--os-region-name <region-name>` Defaults to env[OS_REGION_NAME].  
+`--os-auth-system <auth-system>` Defaults to env[OS_AUTH_SYSTEM].  
+`--service-type <service-type>`  Defaults to compute for most actions  
+`--service-name <service-name>`  Defaults to env[NOVA_SERVICE_NAME]  
+`--volume-service-name <volume-service-name>` Defaults to env[NOVA_VOLUME_SERVICE_NAME]  
+`--os-endpoint-type <endpoint-type>`  Defaults to env[NOVA_ENDPOINT_TYPE], env[OS_ENDPOINT_TYPE] or publicURL.  
+`--os-compute-api-version <compute-api-ver>`  Accepts 1.1 or 3, defaults to env[OS_COMPUTE_API_VERSION].  
+`--bypass-url <bypass-url>`      Use this API endpoint instead of the Service Catalog. Defaults to env[NOVACLIENT_BYPASS_URL]  
+`--insecure`                     Explicitly allow client to perform "insecure" TLS (https) requests. The server's certificate will not be verified against any certificate authorities. This option should be used with caution.  
+`--os-cacert <ca-certificate>`   Specify a CA bundle file to use in verifying a TLS (https) server certificate. Defaults to env[OS_CACERT].  
+`--os-cert <certificate>`        Defaults to env[OS_CERT].  
+`--os-key <key>`                 Defaults to env[OS_KEY].  
+`--timeout <seconds>`            Set request timeout (in seconds).  
+`--os-auth-url OS_AUTH_URL`      Authentication URL  
+`--os-domain-id OS_DOMAIN_ID`    Domain ID to scope to  
+`--os-domain-name OS_DOMAIN_NAME` Domain name to scope to  
+`--os-project-id OS_PROJECT_ID`  Project ID to scope to  
+`--os-project-name OS_PROJECT_NAME`  Project name to scope to  
+`--os-project-domain-id OS_PROJECT_DOMAIN_ID` Domain ID containing project  
+`--os-project-domain-name OS_PROJECT_DOMAIN_NAME` Domain name containing project  
+`--os-trust-id OS_TRUST_ID`      Trust ID  
+`--os-user-id OS_USER_ID`        User ID  
+`--os-user-name OS_USERNAME, --os-username OS_USERNAME` Username  
+`--os-user-domain-id OS_USER_DOMAIN_ID` User's domain id  
+`--os-user-domain-name OS_USER_DOMAIN_NAME` User's domain name  
+`--os-password OS_PASSWORD`      User's password  
   
