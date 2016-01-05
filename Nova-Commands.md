@@ -6,31 +6,9 @@ title = "Nova Commands"
 +++
 
 
-usage: nova [--version] [--debug] [--os-cache] [--timings]  
-            [--os-auth-token OS_AUTH_TOKEN]  
-            [--os-tenant-name <auth-tenant-name>]  
-            [--os-tenant-id <auth-tenant-id>] [--os-region-name <region-name>]  
-            [--os-auth-system <auth-system>] [--service-type <service-type>]  
-            [--service-name <service-name>]  
-            [--volume-service-name <volume-service-name>]  
-            [--os-endpoint-type <endpoint-type>]  
-            [--os-compute-api-version <compute-api-ver>]  
-            [--bypass-url <bypass-url>] [--insecure]  
-            [--os-cacert <ca-certificate>] [--os-cert <certificate>]  
-            [--os-key <key>] [--timeout <seconds>] [--os-auth-url OS_AUTH_URL]  
-            [--os-domain-id OS_DOMAIN_ID] [--os-domain-name OS_DOMAIN_NAME]  
-            [--os-project-id OS_PROJECT_ID]  
-            [--os-project-name OS_PROJECT_NAME]  
-            [--os-project-domain-id OS_PROJECT_DOMAIN_ID]  
-            [--os-project-domain-name OS_PROJECT_DOMAIN_NAME]  
-            [--os-trust-id OS_TRUST_ID] [--os-user-id OS_USER_ID]  
-            [--os-user-name OS_USERNAME]  
-            [--os-user-domain-id OS_USER_DOMAIN_ID]  
-            [--os-user-domain-name OS_USER_DOMAIN_NAME]  
-            [--os-password OS_PASSWORD]  
-            <subcommand> ...
+usage: `nova [optional arguments] [subcommand]`  
 
-Command-line interface to the OpenStack Nova API.  
+**optional arguments ** are show at the bottom of this web page  
 
  
 #### subcommand
