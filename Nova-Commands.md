@@ -257,7 +257,7 @@ Command-line interface to the OpenStack Nova API.
 `tenant-network-list`         List tenant networks.  
 `tenant-network-show`         Show a tenant network.  
 
-Optional arguments:  
+#### Optional arguments:  
 `--version`                      show program's version number and exit  
 `--debug`                        Print debugging output  
 `--os-cache`                     Use the auth token cache. Defaults to False if env[OS_CACHE] is not set.  
