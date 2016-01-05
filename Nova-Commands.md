@@ -264,7 +264,7 @@ Optional arguments:
 `--timings`                      Print call timing info  
 `--os-auth-token OS_AUTH_TOKEN`  Defaults to env[OS_AUTH_TOKEN]  
 `--os-tenant-name <auth-tenant-name>`  Defaults to env[OS_TENANT_NAME].  
-`--os-tenant-id <auth-tenant-id> Defaults to env[OS_TENANT_ID].  
+`--os-tenant-id <auth-tenant-id>` Defaults to env[OS_TENANT_ID].  
 `--os-region-name <region-name>` Defaults to env[OS_REGION_NAME].  
 `--os-auth-system <auth-system>` Defaults to env[OS_AUTH_SYSTEM].  
 `--service-type <service-type>`  Defaults to compute for most actions  
