@@ -6,7 +6,7 @@ title = "Nova Commands"
 +++
 
 
-usage: `nova [optional arguments] [subcommand]`  
+usage: `nova [optional arguments...] [subcommand]`  
 
 **[optional arguments]** are shown at the bottom of this web page  
 
