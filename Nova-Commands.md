@@ -8,7 +8,7 @@ title = "Nova Commands"
 
 usage: `nova [optional arguments] [subcommand]`  
 
-**optional arguments ** are show at the bottom of this web page  
+**[optional arguments]** are shown at the bottom of this web page  
 
  
 #### subcommand
