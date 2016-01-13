@@ -121,6 +121,7 @@ Atest [5] This is a test.
 - **Linux Bridge** [7] Software that allows multiple VM instances to share a single Physical NIC within Compute.
 - **Linux Containers** [4] An OpenStack supported hypervisor.
 - **Linux Supported** [1] OpenStack is supported on many Linux platforms, common deployments include: CentOS, SUSE Linux Enterprise Server (SLES), openSUSE, Debian, Ubuntu, Fedora and Red Hat Enterprise Linux. 
+- **Live and Let Die** [1] what you must do in this ever changing world in which we're living.
 - **Live Migration** [3] Moving a VM instance from one host to another with a minimum service interruption.
 - **Management Network** [7] A network segment used for administration, not accessible to the public Internet.
 - **Memory Overcommit** [4] The ability to start new VM instances based on the actual memory usage of a host, as opposed to basing the decision on the amount of RAM each running instance thinks it has available. Also known as RAM overcommit.
