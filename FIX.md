@@ -33,7 +33,6 @@ title = "FIX"
     bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
     distroverpkg=centos-release
     retries=1
-
     \#  This is the default, if you make this bigger yum won't see if the metadata
     \# is newer on the remote and so you'll "gain" the bandwidth of not having to
     \# download the new metadata and "pay" for it by yum not having correct
@@ -50,13 +49,13 @@ title = "FIX"
 
 3. Modify the sl.yml file to this:
 
-  <pre> 
-  - hosts: openstack  
-    remote_user: root  
-    tasks:  
-    - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644  
-    - name: Install sl  
-      yum: name=sl state=installed  
-  </pre>    
+   <pre> 
+   - hosts: openstack 
+     remote_user: root  
+     tasks:  
+     - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644  
+     - name: Install sl  
+       yum: name=sl state=installed  
+   </pre>    
 
 4. Now run the sl.yml playbook and it should go a lot faster.
