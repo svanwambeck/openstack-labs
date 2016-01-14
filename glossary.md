@@ -55,6 +55,7 @@ Atest [5] This is a test.
 - **Container** [11] Organizes and stores objects in Object Storage. Similar to the concept of a Linux directory but cannot be nested. Alternative term for an Image service container format.
 - **Container Format** [10] Wrapper used by the Image service (glance) that contains a VM image and its associated metadata, such as machine state, OS disk size, and so on.
 - **Core Project** [1] Any official OpenStack Foundation projects; Compute (nova), Object Storage (swift), Image service (glance), Identity (keystone), Dashboard (horizon), Networking (neutron), and Block Storage (cinder), the Telemetry module (ceilometer), Orchestration module (heat), Database service (trove), Bare Metal service (ironic), Data processing service (sahara).
+- **Cray Cray** [1] A term that is being used by my 6 year old in Kindergarten.  Even though I say "That is not a word" he insists that it is.  When I ask him to use it in a sentence he says "Daddy, you're cray cray".  Huh?
 - **Credentials** [5] Passed by a user during the authentication process; password, secret key, digital certificate, and fingerprint
 - **Crowbar** [18] An open source Dell project that aims to provide all necessary services to quickly deploy clouds.
 - **Customer** [5] Synonymous with tenant or project.
