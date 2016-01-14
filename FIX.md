@@ -19,8 +19,7 @@ title = "FIX"
 1. In your home directory, make a new directory called "files"
 
 2. Copy this text into the files directory and name the file "yum.conf"
-
-    ```
+<pre>
     [main]
     cachedir=/var/cache/yum/$basearch/$releasever
     keepcache=0
@@ -47,10 +46,10 @@ title = "FIX"
 
     # PUT YOUR REPOS HERE OR IN separate files named file.repo
     # in /etc/yum.repos.d    
-    ```
+</pre>
+
 
 3. Modify the sl.yml file to this:
-
 <pre> 
 - hosts: openstack  
   remote_user: root  
