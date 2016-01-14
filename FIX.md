@@ -50,6 +50,7 @@ title = "FIX"
 
 
 3. Modify the sl.yml file to this:
+
 <pre> 
 - hosts: openstack  
   remote_user: root  
