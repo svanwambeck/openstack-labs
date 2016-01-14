@@ -58,6 +58,6 @@ title = "FIX"
     - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644              
     - name: Install sl                                                                                      
       yum: name=sl state=installed
-   ```
+    ```
 
 4. Now run the sl.yml playbook and it should go a lot faster.
