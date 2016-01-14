@@ -53,7 +53,6 @@ Atest [5] This is a test.
 - **Container** [11] Organizes and stores objects in Object Storage. Similar to the concept of a Linux directory but cannot be nested. Alternative term for an Image service container format.
 - **Container Format** [10] Wrapper used by the Image service (glance) that contains a VM image and its associated metadata, such as machine state, OS disk size, and so on.
 - **Core Project** [1] Any official OpenStack Foundation projects; Compute (nova), Object Storage (swift), Image service (glance), Identity (keystone), Dashboard (horizon), Networking (neutron), and Block Storage (cinder), the Telemetry module (ceilometer), Orchestration module (heat), Database service (trove), Bare Metal service (ironic), Data processing service (sahara).
-- **Cray Cray** [1] A term that is being used by my 6 year old in Kindergarten.  Even though I say "That is not a word" he insists that it is.  When I ask him to use it in a sentence he says "Daddy, you're cray cray".  Huh?
 - **Credentials** [5] Passed by a user during the authentication process; password, secret key, digital certificate, and fingerprint
 - **Crowbar** [18] An open source Dell project that aims to provide all necessary services to quickly deploy clouds.
 - **Customer** [5] Synonymous with tenant or project.
@@ -179,7 +178,6 @@ Atest [5] This is a test.
 - **TAP** Traffic Access Point
 - **Telemetry** [14] An integrated project that provides metering and measuring facilities for OpenStack. The project name of Telemetry is ceilometer.
 - **Tenant** [5] It refers to a group of users; used to isolate access to Compute resources. Also known as a project, these terms are interchangeable. The initial implementation of OpenStack Compute had its own authentication system and used the term project. When authentication moved into the OpenStack Identity (keystone) project, it used the term tenant to refer to a group of users. Because of this legacy, some of the OpenStack tools refer to projects and some refer to tenants. 
-- **Thunder** [27] A Cloud-based electrical discharge, may be intra-cloud, inter-cloud, or cloud-to-ground.
 - **Token** [5] An alpha-numeric string of text used to access OpenStack APIs and resources.
 - **Trove** [16] OpenStack project that provides database services to applications.
 - **UML** [4] *User Mode Linux* An OpenStack-supported hypervisor.
