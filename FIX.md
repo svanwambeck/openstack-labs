@@ -43,7 +43,6 @@ title = "FIX"
     \# interupting your command line usage, it's much better to have something
     \# manually check the metadata once an hour (yum-updatesd will do this).
     \# metadata_expire=90m
-
     \# PUT YOUR REPOS HERE OR IN separate files named file.repo
     \# in /etc/yum.repos.d    
 </pre>
