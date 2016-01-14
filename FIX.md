@@ -48,13 +48,13 @@ title = "FIX"
 
 3. Modify the sl.yml file to this:
 
-   <pre> 
-   - hosts: openstack
-     remote_user: root
-     tasks:
-     - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
-     - name: Install sl
-       yum: name=sl state=installed
-   </pre>
+<pre> 
+  - hosts: openstack
+    remote_user: root
+    tasks:
+    - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
+    - name: Install sl
+      yum: name=sl state=installed
+</pre>
 
 4. Now run the sl.yml playbook and it should go a lot faster.
