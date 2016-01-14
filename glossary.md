@@ -19,7 +19,6 @@ Twitter:  https://twitter.com/OpenStack
 - **Absolute Limit** [6] Ceiling (limits) for guest VMs. Controlled by defining total limits on RAM, number of vCPUs, and disk size.
 - **Active Passive Configuration** [19] In a high-availability setup with an active/passive configuration, systems are set up to bring additional resources online to replace those that have failed.
 - **Address Pool** [7] A list of the fixed and/or floating IP addresses that are allocated/assigned to a project (tenant) to be used or assigned to the VM instances in a project.
-- **A la Mode** Code
 - **amypond** - The girl who waited.
 - **API** [1] Application Programming Interface. A collection of specifications used to access a service, application, or program. Includes service calls, required parameters for each call, and the expected return values.
 - **API Endpoint** [1] The daemon, worker, or service that a client communicates with to access an API. API endpoints can provide any number of services such as authentication, accounting information, performance metrics, compute (nova) VM instance commands, population density of European & African Swallows anything!
@@ -27,6 +26,7 @@ Twitter:  https://twitter.com/OpenStack
 - **API Token** [5] Passed on API requests and used by OpenStack services to verify that this particular user is authorized to access and run the requested operation.
 - **API Version** [5] The API version can be found as part of the URL.
 Atest [5] This is a test.
+- **ASIC** [4] Application-specific integrated circuit - makes possible fastest switching and routing on HW basis
 - **Aurelius’** - A new and power OpenStack service, this service interrogates all other services to ensure their logic is stoic, sound and virtuous.
 - **Austin** [1] The first release of OpenStack was called Austin. Unsurprisingly, the first design summit took place in this capital city of Texas. OpenStack versions are short lived, and the release dates are aggressive (about 2 new releases a year). Generally, a customer will fork an OpenStack release version, and stick with it.
 - **Authentication Token** [5] The identity service (Keystone) first confirms the identity of a user, process, or client; authorized because they've provided a private key, token, password, fingerprint, or similar security mechanism. The authentication token is a string of text returned to the user that is then included with a subsequent API request.
