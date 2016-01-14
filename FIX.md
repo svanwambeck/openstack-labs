@@ -47,7 +47,6 @@ title = "FIX"
 </pre>
 
 3. Modify the sl.yml file to this:
-
 <pre> 
   - hosts: openstack
     remote_user: root
@@ -58,3 +57,4 @@ title = "FIX"
 </pre>
 
 4. Now run the sl.yml playbook and it should go a lot faster.
+
