@@ -57,5 +57,5 @@ title = "FIX"
       yum: name=sl state=installed
 </pre>
 
-\4. Now run the sl.yml playbook and it should go a lot faster.
+Now run the sl.yml playbook and it should go a lot faster.
 
