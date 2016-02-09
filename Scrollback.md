@@ -6,7 +6,7 @@ title = "Using Screen to Scroll Back"
 +++
 
 #### Objective
-Use screen to scroll back to view information that scrolled of the top of the machine.
+Use screen to scroll back to view information that scrolled off the top of the machine.
 
 When you use your browser to perform CLI changes, you are using HTTP to connect to Shell In a Box, which connects you to a screen session, which in turn uses SSH to connect to your lab environment.
 
