@@ -30,4 +30,4 @@ When you use your browser to perform CLI changes, you are using HTTP to connect 
 
 5. Scroll the display up and down by a full with **control-b** and **control-f**
 
-2. Exit with the Escape key
+2. Exit with the **Escape** key
