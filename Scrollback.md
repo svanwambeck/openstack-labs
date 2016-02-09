@@ -5,13 +5,10 @@ weight = 20
 title = "Using GNU Screen to Scroll Back"
 +++
 
-#### Objective
-Use screen to scroll back to view information that scrolled off the top of the machine.
-
-When you use your browser to perform CLI changes, you are using HTTP to connect to Shell In a Box, which connects you to a screen session, which in turn uses SSH to connect to your lab environment.
+You can use GNU screen (commonly called "screen") to scroll back to view information that scrolled off the top of the machine. When you logged into the SSH proxy, a screen session was automatically started for you and normally just runs silently in the background. You can take advantage of your screen session to scroll back to view stuff that scrolled off the top of your browser window.  
 
 
-## [What is screen?](https://en.wikipedia.org/wiki/GNU_Screen)
+## [What is GNU screen?](https://en.wikipedia.org/wiki/GNU_Screen)
 
 1. Activate screen: 
 
