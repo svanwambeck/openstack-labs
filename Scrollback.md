@@ -21,9 +21,12 @@ When you use your browser to perform CLI changes, you are using HTTP to connect 
     > Further commands will intercepted by screen
    
 2. Enter COPY mode (Left square bracket)
+
     `[root@controller ~]$` `[`
+
     > You now have screen's attention!
     > Further commands will intercepted by screen
+
 3. Scroll up and down one line at a time with the **arrow** keys
 
 4. Scroll the display up and down by 1/2 screen with **control-u** and **control-d**
