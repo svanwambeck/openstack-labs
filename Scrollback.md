@@ -2,7 +2,7 @@
 date = "2016-2-09"
 draft = false
 weight = 20
-title = "Using Screen to Scroll Back"
+title = "Using GNU Screen to Scroll Back"
 +++
 
 #### Objective
