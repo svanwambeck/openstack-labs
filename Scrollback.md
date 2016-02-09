@@ -29,6 +29,6 @@ You can use GNU screen (commonly called "screen") to scroll back to view informa
 
 4. Scroll the display up and down by 1/2 screen with **control-u** and **control-d**
 
-5. Scroll the display up and down by a full with **control-b** and **control-f**
+5. Scroll the display up and down by a full screen with **control-b** and **control-f**
 
 6. Exit with the **Escape** key
