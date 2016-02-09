@@ -17,12 +17,13 @@ You can use GNU screen (commonly called "screen") to scroll back to view informa
     > You now have screen's attention!
     > Further commands will intercepted by screen
    
-2. Enter COPY mode (Left square bracket)
+2. Enter COPY mode which will allow you to scroll back (Left square bracket)
 
     `[root@controller ~]$` `[`
 
     > You now have screen's attention!
     > Further commands will intercepted by screen
+    > You won't actually use the copy feature, just scrollback
 
 3. Scroll up and down one line at a time with the **arrow** keys
 
@@ -30,4 +31,4 @@ You can use GNU screen (commonly called "screen") to scroll back to view informa
 
 5. Scroll the display up and down by a full with **control-b** and **control-f**
 
-2. Exit with the **Escape** key
+6. Exit with the **Escape** key
