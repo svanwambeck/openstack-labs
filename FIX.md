@@ -16,13 +16,17 @@ title = "FIX"
 
 ### A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
 
-1. In your home directory, make a new directory called "files"
-
-2. Why is YUM updates taking so long!!
+1. Why is YUM updates taking so long!!
   - Here is the mirror status: http://mirror-status.centos.org/
   - Here is yum.conf file info: https://docs.fedoraproject.org/en-US/Fedora/15/html/Deployment_Guide/sec-Configuring_Yum_and_Yum_Repositories.html
   - The default retries before YUM advances to the next mirror is **10 (TEN!!!)** retries, let's make that 1:
 Copy this text into the files directory and name the file "yum.conf"
+
+2. In your home directory, make a new directory called "files"
+
+3. copy /etc/yum.conf to /~/files
+
+4. Edit your new yum.conmf file by adding **retries=1** to the bottom of the config as shown below. 
 
 <pre>
     [main]
@@ -40,14 +44,17 @@ Copy this text into the files directory and name the file "yum.conf"
     retries=1
 </pre>
 
-3. Modify the sl.yml file to this:
+5. Save the file
+
+6. After you have downloaded sl.yml file, modify it to look like this:
 
 <pre> 
   - hosts: openstack
     remote_user: root
     tasks:
-    - copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
-    - name: Install sl
+    - name: Look at me adding my first line of devops code! The next line of code updates yum.conf on all my hosts, this is really cool.
+      copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
+    - name: Install sl even though I have no idea what sl does... yet.
       yum: name=sl state=installed
 </pre>
 
