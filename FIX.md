@@ -17,7 +17,7 @@ title = "FIX"
 ### A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
 
 1. Why are YUM updates taking so long!!
-  - Here is the mirror status: http://mirror-status.centos.org/
+  - Here is the YUM mirror status: http://mirror-status.centos.org/
   - Here is yum.conf file info: https://docs.fedoraproject.org/en-US/Fedora/15/html/Deployment_Guide/sec-Configuring_Yum_and_Yum_Repositories.html
   - The default retries before YUM advances to the next mirror is **10 (TEN!!!)** retries, let's make that 1:
 Copy this text into the files directory and name the file "yum.conf"
