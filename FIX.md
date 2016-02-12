@@ -14,11 +14,17 @@ title = "FIX"
 2. How to "unsource" your bash session  
    `source .bashrc`
 
-#### A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
+## A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
 
 1. In your home directory, make a new directory called "files"
 
-2. Copy this text into the files directory and name the file "yum.conf"
+2. S-L-O-W YUM Mirrors
+  - Why is YUM updates taking so long!!
+  - Here is the mirror status: http://mirror-status.centos.org/
+  - Here is yum.conf file info: https://docs.fedoraproject.org/en-US/Fedora/15/html/Deployment_Guide/sec-Configuring_Yum_and_Yum_Repositories.html
+  - The default retries before YUM advances to the next mirror is 10 (TEN!!!) retries, let's make that 1:
+Copy this text into the files directory and name the file "yum.conf"
+
 <pre>
     [main]
     cachedir=/var/cache/yum/$basearch/$releasever
@@ -33,17 +39,6 @@ title = "FIX"
     bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
     distroverpkg=centos-release
     retries=1
-    \#  This is the default, if you make this bigger yum won't see if the metadata
-    \# is newer on the remote and so you'll "gain" the bandwidth of not having to
-    \# download the new metadata and "pay" for it by yum not having correct
-    \# information.
-    \#  It is esp. important, to have correct metadata, for distributions like
-    \# Fedora which don't keep old packages around. If you don't like this checking
-    \# interupting your command line usage, it's much better to have something
-    \# manually check the metadata once an hour (yum-updatesd will do this).
-    \# metadata_expire=90m
-    \# PUT YOUR REPOS HERE OR IN separate files named file.repo
-    \# in /etc/yum.repos.d    
 </pre>
 
 3. Modify the sl.yml file to this:
