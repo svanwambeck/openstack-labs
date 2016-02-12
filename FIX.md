@@ -14,7 +14,7 @@ title = "FIX"
 2. How to "unsource" your bash session  
    `source .bashrc`
 
-# A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
+### A fix to avoid slow yum mirror in anisble lab when a mirror is down and yum slows to a craw or completely fails.
 
 1. In your home directory, make a new directory called "files"
 
