@@ -98,12 +98,12 @@ Now run the sl.yml playbook and it should go a lot faster.
 
     `git push origin master`
 
-    ` #respond to login`  
+    ` # respond to login`  
     ` # respond to password`
 
 ## Out of sync? Do this
 
-    `git remove origin`
+  `git remove origin`
 
     `remote add origin https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
 
