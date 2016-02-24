@@ -80,7 +80,9 @@ Now run the sl.yml playbook and it should go a lot faster.
 
     `touch readme.txt`
 
-    `vim readme.txt  --- and add some interesting text`
+    `vim readme.txt`
+
+   > This is my test file to see if I can push a file up to gut hub.
 
     `git status`
 
@@ -98,5 +100,19 @@ Now run the sl.yml playbook and it should go a lot faster.
 
     ` #respond to login`
     ` # respond to password`
+
+## Out of sync? Do this
+
+    `git remove origin`
+
+    `remote add origin  https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
+
+    `git pull origin master
+
+     > This will sync github with your current directly
+
+    `git push origin master`
+
+    > Now that you are synced with github, this should work
 
 
