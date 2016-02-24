@@ -62,7 +62,9 @@ Now run the sl.yml playbook and it should go a lot faster.
 
 ## How to save files from my Openstack Lab to view later
 
-1. First do lab 13, then SSH into your controller and issue these commands
+1. First do lab 13 which will set up an account with github
+
+2. Then SSH into your controller and issue these commands
 
     `mkdir ~/myopenstack``
 
