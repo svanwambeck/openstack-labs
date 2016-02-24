@@ -82,7 +82,7 @@ Now run the sl.yml playbook and it should go a lot faster.
 
     `vim readme.txt`
 
-   > This is my test file to see if I can push a file up to gut hub.
+    > This is my test file to see if I can push a file up to gut hub.
 
     `git status`
 
@@ -92,7 +92,7 @@ Now run the sl.yml playbook and it should go a lot faster.
 
     `git add`
 
-    > CREATE REPOSITORY on github called 'myopenstack'`
+    > CREATE REPOSITORY on github called 'myopenstack'
 
     `git remote add origin https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
 
@@ -101,8 +101,8 @@ Now run the sl.yml playbook and it should go a lot faster.
     ` #respond to login`
     ` # respond to password`
 
-## Out of sync? Do this
-
+## Out of sync? Do this  
+    
     `git remove origin`
 
     `remote add origin  https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
