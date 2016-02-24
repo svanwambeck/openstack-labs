@@ -102,12 +102,12 @@ Now run the sl.yml playbook and it should go a lot faster.
     ` # respond to password`
 
 ## Out of sync? Do this  
-    
+
     `git remove origin`
 
     `remote add origin  https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
 
-    `git pull origin master
+    `git pull origin master`
 
      > This will sync github with your current directly
 
