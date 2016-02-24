@@ -60,3 +60,43 @@ Copy this text into the files directory and name the file "yum.conf"
 
 Now run the sl.yml playbook and it should go a lot faster.
 
+## How to save files from my Openstack Lab to view later
+
+1. First do lab 13, then SSH into your controller and issue these commands
+
+    `mkdir ~/myopenstack``
+
+    `cd myopenstack`
+
+    `yum install git`
+
+    `git config --global user.name "---Your Name Here---"`
+
+    `git config --global user.email "---your_email@example.com---"`
+
+    `git config --list`
+
+    `git init`
+
+    `touch readme.txt`
+
+    `vim readme.txt  --- and add some interesting text`
+
+    `git status`
+
+    `git add readme.txt`
+
+    `git commit -m 'This is supposed to add Readme.txt to my repository'`
+
+    `git add`
+
+    > CREATE REPOSITORY on github called 'myopenstack'`
+
+    `git remote add origin https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
+
+    `git push origin master`
+
+    ` #respond to login`
+    ` # respond to password`
+
+
