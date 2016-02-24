@@ -105,14 +105,14 @@ Now run the sl.yml playbook and it should go a lot faster.
 
   `git remove origin`
 
-    `remote add origin https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
+  `remote add origin https://github.com/YOUR-ACCOUNT-NAME-HERE/myopenstack.git`
 
-    `git pull origin master`
+  `git pull origin master`
 
-     > This will sync github with your current directly
+  > This will sync github with your current directly
 
-    `git push origin master`
+  `git push origin master`
 
-    > Now that you are synced with github, this should work
+  > Now that you are synced with github, this should work
 
 
